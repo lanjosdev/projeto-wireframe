@@ -1,0 +1,48 @@
+/* STYLE GLOBAL */
+:root {
+    --brand-colors-pink: #f67acb;
+    --gray-colors-50: #e6ebf2;
+    --gray-colors-100: #050110;
+    --gray-colors-300: #393c40;
+    --gray-colors-400: #5c6066;
+    --gray-colors-800: #f7f8fa;
+    --white-colors-text: #ffffffb3;
+    --white: #fff;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem; /* 16px */
+}
+/* STYLE GLOBAL */
+
+/* LAYOUT */
+/* Header */
+header {
+    background-color: var(--gray-colors-800);
+    width: 100%;
+    height: 8.8rem;
+    display: flex;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    margin-right: 3.2rem;
+
+    display: flex; 
+    gap: 3.2rem;
+}
+
+header .menu-mobile {
+    display: none;
+}
+/* LAYOUT */

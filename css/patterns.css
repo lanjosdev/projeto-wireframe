@@ -1,0 +1,43 @@
+h1, h2, h3 {
+    font-family: 'Sora', sans-serif;
+    color: var(--white);
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: -1px;
+}
+
+h1 {
+    color: var(--gray-colors-100);
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+.btn-primary {
+    background-color: var(--brand-colors-pink);
+    padding: 0.939rem 3.4rem;
+    display: inline-block;
+    
+    color: var(--gray-colors-100);
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+.menu-item {
+    background-color: var(--gray-colors-50);
+    padding: 1.2rem 2.4rem;
+    display: inline-block;
+
+    color: var(--gray-colors-400);
+    font-size: 1.5rem;
+    font-family: 'Sora', sans-serif;
+    line-height: 105%;
+    letter-spacing: -0.01em;
+}
