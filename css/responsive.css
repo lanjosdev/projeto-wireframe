@@ -91,8 +91,19 @@
 /* Excessao de altura/height */
 @media screen and (max-height: 667px) {
     .s-hero {
-        padding: calc(8.8rem + 35px) 0 35px;
+        padding: calc(8.8rem + 30px) 0 30px;
     }
+
+    .s-hero .text {
+        margin-bottom: 25px;
+    }
+    .s-hero .text h1 {
+        margin-bottom: 15px;
+    }
+    .s-hero .text p {
+        margin-bottom: 25px;
+    }
+
     .s-hero .image {
         height: 30rem;
     }
