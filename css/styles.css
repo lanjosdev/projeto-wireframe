@@ -45,4 +45,51 @@ header nav ul {
 header .menu-mobile {
     display: none;
 }
+
+/* Section Hero */
+.s-hero {
+    padding: 7.2rem 0;
+}
+
+.s-hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s-hero .text {
+    width: 100%;
+    max-width: 63.5rem;
+}
+.s-hero .text h1 {
+    margin-bottom: 2rem;
+}
+.s-hero .text p {
+    max-width: 48.8rem;
+
+    font-size: 1.8rem;
+    color: var(--gray-colors-300);
+    line-height: 150%;
+
+    margin-bottom: 5.6rem;
+}
+.s-hero .text .btn-primary {
+    max-width: fit-content;
+    height: 5.6rem;
+    padding: 0 4rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.s-hero .image {
+    background-color: var(--gray-colors-800);
+    width: 100%;
+    max-width: 48.8rem;
+    height: 49.6rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* LAYOUT */
