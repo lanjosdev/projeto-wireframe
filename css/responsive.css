@@ -1,6 +1,8 @@
 /* Desktops baixa resolução */
 @media screen and (max-width: 1280px) {
-    
+    .s-hero .text {
+        max-width: 49%;
+    }
 }
 
 /* Laptops baixa resolução */
@@ -12,11 +14,36 @@
     header .menu-mobile {
         display: block;
     }
+
+    .s-hero .image {
+        max-width: 46%;
+        height: 40rem;
+    }
 }
 
 /* Tablets */
 @media screen and (max-width: 767px) {
-    
+    .s-hero .container {
+        flex-direction: column;
+    }
+
+    .s-hero .text {
+        max-width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        text-align: center;
+
+        margin-bottom: 4rem;
+    }
+
+    .s-hero .image {
+        /* volta nas configurações iniciais do styles.css */
+        max-width: 48.8rem;
+        height: 49.6rem;
+    }
 }
 
 /* Tablets baixa resolução */
@@ -26,7 +53,47 @@
 
 /* Mobile geral */
 @media screen and (max-width: 480px) {
+    html {
+        font-size: 55%;
+    }
+    h1 {
+        font-size: 4.2rem;
+    }
+  
     header .logo {
-        max-width: 13rem;
+        max-width: 130px;
+    }
+
+    .s-hero {
+        padding: calc(8.8rem + 40px) 0 40px; /* padding padrao p/ mobile (o calc está somando com height do header) */
+        /* height: 100%; */
+        min-height: 100vh;
+    }
+
+    .s-hero .text {
+        margin-bottom: 30px;
+    }
+    .s-hero .text h1 {
+        margin-bottom: 20px;
+    }
+    .s-hero .text p {
+        margin-bottom: 30px;
+    }
+
+    .s-hero .image {
+        height: 35rem;
+    }
+    .s-hero .image img {
+        max-width: 100px;
+    }
+}
+
+/* Excessao de altura/height */
+@media screen and (max-height: 667px) {
+    .s-hero {
+        padding: calc(8.8rem + 35px) 0 35px;
+    }
+    .s-hero .image {
+        height: 30rem;
     }
 }

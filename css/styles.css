@@ -23,6 +23,8 @@ header {
     width: 100%;
     height: 8.8rem;
     display: flex;
+
+    position: fixed; /* header/navbar fixa */
 }
 header .container {
     display: flex;
@@ -48,7 +50,7 @@ header .menu-mobile {
 
 /* Section Hero */
 .s-hero {
-    padding: 7.2rem 0;
+    padding: calc(8.8rem + 7.2rem) 0 7.2rem; /* (o calc está somando com height do header) */
 }
 
 .s-hero .container {
@@ -76,17 +78,17 @@ header .menu-mobile {
 .s-hero .text .btn-primary {
     max-width: fit-content;
     height: 5.6rem;
-    padding: 0 4rem;
+    padding: 0 4rem; /* padding apenas nas laterais */
 
     display: flex;
     align-items: center;
 }
 
 .s-hero .image {
-    background-color: var(--gray-colors-800);
     width: 100%;
     max-width: 48.8rem;
     height: 49.6rem;
+    background-color: var(--gray-colors-800);
 
     display: flex;
     justify-content: center;
