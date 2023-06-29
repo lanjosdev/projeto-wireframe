@@ -120,17 +120,15 @@ header .menu-mobile {
 
 .s-card-featured .cards {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 3.2rem;
+    justify-content: space-between;
 
     margin-top: 4.8rem;
 }
 
 .s-card-featured .cards .card {
-    background-color: #1c1d1f80;
-    /* margin-right: ; */
-    width: 38.4rem;
+    background-color: var(--gray-colors-200);
+    width: 100%;
+    max-width: 38.4rem;
     min-height: 38.2rem;
     padding: 6.4rem 4.8rem;
 }

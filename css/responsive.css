@@ -3,6 +3,13 @@
     .s-hero .text {
         max-width: 49%;
     }
+    .s-card-featured .cards {
+        justify-content: center;
+        gap: 2.7rem;
+    }
+    .s-card-featured .cards .card {
+        width: 31%;
+    }
 }
 
 /* Laptops baixa resolução */
@@ -18,6 +25,10 @@
     .s-hero .image {
         max-width: 46%;
         height: 40rem;
+    }
+
+    .s-card-featured .cards .card {
+        padding: 6rem 2%;
     }
 }
 
@@ -44,11 +55,27 @@
         max-width: 48.8rem;
         height: 49.6rem;
     }
+
+    .s-card-featured .cards {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .s-card-featured .cards .card {
+        min-width: 29.4rem;
+        max-width: 38.4rem;
+        padding: 6rem 5%;
+    }
 }
 
 /* Tablets baixa resolução */
 @media screen and (max-width: 600px) {
-    
+    .s-card-featured .cards .card {
+        width: 100%;
+        max-width: 38.4rem;
+        min-height: 38.2rem;
+        padding: 6.4rem 4.8rem;
+    }    
 }
 
 /* Mobile geral */
@@ -85,6 +112,26 @@
     }
     .s-hero .image img {
         max-width: 100px;
+    }
+    
+
+    .s-card-featured {
+        padding: 40px 0; /* padding padrao mobile */
+    }
+    .s-card-featured .main-area {
+        padding-bottom: 40px;
+    }
+    .s-card-featured .cards {
+        margin-top: 30px;
+    }
+    .s-card-featured .cards .card {
+        width: 100%;
+        max-width: 384px;
+        min-height: fit-content;
+        padding: 30px;
+    }
+    .s-card-featured .cards .card .card-text {
+        margin-top: 30px;
     }
 }
 
