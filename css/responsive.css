@@ -10,6 +10,13 @@
     .s-card-featured .cards .card {
         width: 31%;
     }
+
+    .s-card-featured .second-area .images {
+        gap: 2rem 2%; /* Primeiro valor é o gap no top+bottom e o segundo é o gap em left e right */
+    }
+    .s-card-featured .second-area .images .img {
+        width: 23.5%; /* Para ficar com 4 imgs somando com os 2% do gap dá o total de 100% na width */
+    }
 }
 
 /* Laptops baixa resolução */
@@ -76,6 +83,22 @@
         min-height: 38.2rem;
         padding: 6.4rem 4.8rem;
     }    
+
+    .s-card-featured .second-area .top {
+        flex-direction: column;
+
+        text-align: center;    
+    }
+    .s-card-featured .second-area .top .btn-primary {
+        margin-top: 2rem;
+    }
+ 
+    .s-card-featured .second-area .images {
+        gap: 2rem 3%; 
+    }
+    .s-card-featured .second-area .images .img {
+        width: 48.5%;
+    }
 }
 
 /* Mobile geral */
@@ -132,6 +155,20 @@
     }
     .s-card-featured .cards .card .card-text {
         margin-top: 30px;
+    }
+
+    .s-card-featured .second-area {
+        padding-top: 40px;
+    }
+    .s-card-featured .second-area .top {
+        margin-bottom: 30px;
+    }
+
+    .s-card-featured .second-area .images {
+        gap: 4vw 4%; 
+    }
+    .s-card-featured .second-area .images .img {
+        width: 48%;
     }
 }
 
