@@ -7,7 +7,7 @@
     --gray-colors-300: #393c40;
     --gray-colors-400: #5c6066;
     --gray-colors-800: #f7f8fa;
-    --white-colors-text: #ffffffb3;
+    --white-colors-text: rgba(255, 255, 255, 0.702);
     --white: #fff;
 }
 
@@ -100,22 +100,20 @@ header .menu-mobile {
 .s-card-featured {
     background-color: var(--gray-colors-100);
     padding: 10.4rem 0 12rem;
-    text-align: center;
 }
 
-.s-card-featured .main-area {
-    border-bottom: 1px #ffffff40 solid;
-    padding-bottom: 12.2rem;
-}
-
-.s-card-featured .title-section.left {
-    text-align: left;
-}
 .s-card-featured p {
     color: var(--white-colors-text);
     line-height: 150%;
 
     margin-top: 0.8rem;
+}
+
+/* Main area */
+.s-card-featured .main-area {
+    border-bottom: 1px #ffffff40 solid;
+    padding-bottom: 12.2rem;
+    text-align: center;
 }
 
 .s-card-featured .cards {
@@ -142,9 +140,48 @@ header .menu-mobile {
     color: var(--gray-colors-300);
 }
 
-
 .s-card-featured .cards .card .card-text {
     margin-top: 4rem;
 }
+
+
+/* Second area */
+.s-card-featured .second-area {
+    padding-top: 10.4rem;
+}
+
+.s-card-featured .second-area .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 5.6rem;
+}
+.second-area .top .btn-primary {
+    width: fit-content;
+    min-width: 20.8rem;
+    height: 5.6rem; /* fixei a altura do button */
+    padding: 0 4rem; /* padding apenas nas laterais */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-card-featured .second-area .images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.2rem;
+}
+.s-card-featured .second-area .images .img {
+    background-color: var(--gray-colors-200);
+    width: 17.6rem;
+    height: 11.2rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* LAYOUT */
