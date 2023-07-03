@@ -170,6 +170,10 @@
     .s-card-featured .second-area .images .img {
         width: 48%;
     }
+
+    .s-newsletter {
+        padding: 40px 0;
+    }
 }
 
 /* Excessao de altura/height */

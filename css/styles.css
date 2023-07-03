@@ -183,5 +183,39 @@ header .menu-mobile {
     align-items: center;
 }
 
+/* Section Newsletter */
+.s-newsletter {
+    background-color: var(--gray-colors-200);
+    text-align: center;
+    padding: 15.2rem 0;
+}
+
+.s-newsletter h2 {
+    margin-bottom: 2rem;
+}
+
+.s-newsletter p {
+    color: var(--white-colors-text);
+    line-height: 150%;
+
+    max-width: 694px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.s-newsletter .btn-primary {
+    width: 100%;
+    max-width: 31.3rem;
+    height: 5.6rem;
+    padding: 0 4rem;
+
+    display: flex;
+    align-items: center;
+
+    margin: 0 auto;
+
+    /* padding: 2rem 4rem; */
+}
+
 
 /* LAYOUT */
