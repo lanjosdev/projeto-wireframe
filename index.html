@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.svg">
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
     <title>Projeto - Wireframe</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Sora:wght@400;600&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/grid.css">
@@ -46,7 +48,7 @@
         </div>
     </header>
 
-    <section class="s-hero">
+    <section class="s-hero" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <div class="container">
             <div class="text">
                 <h1>
@@ -61,7 +63,8 @@
         </div>
     </section>
 
-    <section class="s-card-featured">
+    <section class="s-card-featured" data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">
         <div class="container">
             <div class="main-area">
                 <div class="title-section">
@@ -71,7 +74,7 @@
                     </p>
                 </div>
                 <div class="cards">
-                    <div class="card">
+                    <div class="card" data-aos="fade-up" data-aos-duration="1500">
                         <div class="icon">
                             <img src="./assets/icon-circle.svg" alt="Icone card">
                         </div>
@@ -82,7 +85,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="card white">
+                    <div class="card white" data-aos="fade-up" data-aos-duration="1500">
                         <div class="icon">
                             <img src="./assets/icon-circle.svg" alt="Icone card">
                         </div>
@@ -93,7 +96,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" data-aos="fade-up" data-aos-duration="1500">
                         <div class="icon">
                             <img src="./assets/icon-circle.svg" alt="Icone card">
                         </div>
@@ -158,7 +161,7 @@
     </section>
 
     <section class="s-newsletter">
-        <div class="container">
+        <div class="container" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
             <h2>Front-end descomplicado e direto ao ponto!</h2>
             <p>Aprenda a desenvolver interfaces modernas e de alta qualidade com quem está na área atuando com projetos altamente renomados.</p>
             <a href="" class="btn-primary">Fazer parte da lista de espera</a>
@@ -228,5 +231,9 @@
             </div>
         </div>
     </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
