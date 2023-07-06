@@ -28,6 +28,11 @@ h3 {
     font-family: 'Sora', sans-serif;
     font-weight: 600;
     letter-spacing: -0.01em;
+
+    transition: .3s ease-in-out;
+}
+.btn-primary:hover {
+    transform: scale(1.05);
 }
 
 .menu-item {
@@ -40,4 +45,10 @@ h3 {
     font-family: 'Sora', sans-serif;
     line-height: 105%;
     letter-spacing: -0.01em;
+
+    transition: all .3s;
+}
+.menu-item:hover {
+    background-color: #acb4bf;
+    color: var(--white);
 }

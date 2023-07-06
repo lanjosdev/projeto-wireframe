@@ -26,6 +26,7 @@ header {
     display: flex;
 
     position: fixed; /* header/navbar fixa */
+    z-index: 10; /* para garantir que fique encima de outros elementos */
 }
 header .container {
     display: flex;
@@ -239,6 +240,11 @@ footer p, footer span, footer a, footer strong {
 }
 footer a, footer a span {
     font-family: 'Sora', sans-serif;
+
+    transition: color .3s;
+}
+footer a:hover, footer a span:hover {
+    color: var(--white);
 }
 
 
