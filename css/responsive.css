@@ -17,6 +17,10 @@
     .s-card-featured .second-area .images .img {
         width: 23.5%; /* Para ficar com 4 imgs somando com os 2% do gap dá o total de 100% na width */
     }
+
+    footer .main-footer nav {
+        max-width: 63rem;
+    }
 }
 
 /* Laptops baixa resolução */
@@ -36,6 +40,10 @@
 
     .s-card-featured .cards .card {
         padding: 6rem 2%;
+    }
+
+    footer .main-footer nav {
+        max-width: 45rem;
     }
 }
 
@@ -72,6 +80,20 @@
         min-width: 29.4rem;
         max-width: 38.4rem;
         padding: 6rem 5%;
+    }
+
+    footer .main-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .main-footer .area-left {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    footer .main-footer nav {
+        max-width: 100%;
     }
 }
 
@@ -173,6 +195,39 @@
 
     .s-newsletter {
         padding: 40px 0;
+    }
+
+    footer {
+        padding: 40px 0 25px;
+    }
+    footer .main-footer {
+        padding-bottom: 40px;
+    }
+
+    footer .main-footer nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+
+        text-align: center;
+    }
+
+    footer .main-footer nav .item-nav:last-child a {
+        justify-content: center;
+    }
+
+    footer .main-footer nav .item-nav li:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    footer .copy {
+        padding-top: 25px;
+
+        text-align: center;
+
+        justify-content: center; 
+        flex-wrap: wrap; 
+        gap: 2rem;      
     }
 }
 
